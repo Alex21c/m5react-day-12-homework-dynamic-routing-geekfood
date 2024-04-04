@@ -22,7 +22,19 @@ npm run start
 + [Google Fonts](https://fonts.google.com/)
 + [Font Awesome](https://fontawesome.com/icons/)
 
+## Important 
+You need to create an `.env` file in the root containing Rapid API Key.
+Yours .env file should look like this
+```
+REACT_APP_API_THE_VEGAN_RECIPES_DB=YoursApiKey
+
+```
+### How to get yours API Key
+Now to get that API Key, you need to signup & subscribe to [Rapid API the-vegan-recipes-db](https://rapidapi.com/rapihub-rapihub-default/api/the-vegan-recipes-db) and inside settings you will get yours token.
+while deploying yours app to [Vercel](https://vercel.com/) you need to specify these Enviornmnet variables inside settings.
+
+### Why i did this?
+to protect my API Key from aunthorized activity! 
+
 ## Author
 [Abhishek kumar](https://www.linkedin.com/in/alex21c/), ([Geekster](https://geekster.in/) MERN Stack FS-14 Batch)
-
-
