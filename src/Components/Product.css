@@ -1,0 +1,37 @@
+@media screen and (max-width:1162px){
+  div#wrapperProduct{
+    width: 95%;
+  }
+}
+
+@media screen and (max-width:840px){
+  div.wrapperDescriptionAndIngredients{
+    width: 50%;
+  }
+  div.productImage{
+    width: 50%;
+    min-height: 30rem;
+    
+  }
+}
+
+@media screen and (max-width:740px){
+  div.wrapperDescriptionAndIngredients{
+    width: auto;
+  }
+  div.productImage{
+    width: 100%;
+    min-height: auto;
+
+  }
+  div.wrapperProdudctImgAndDescPlusIngredients{
+    flex-direction: column-reverse;
+  }
+  div#wrapperProduct{
+    padding: .5rem;
+  }
+  div.wrapperInnerProduct{
+    padding: 1rem;
+  }
+
+}
